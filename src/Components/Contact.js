@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className="primary-heading">Contact us!</h1>
       <div className="contact-form-container">
         <button className="secondary-button wa">
-          <a className="link-style" href="https://wa.me/082214239857">
+          <a className="link-style" href="https://wa.me/6282214239857">
             WhatsApp Chat
           </a>
         </button>

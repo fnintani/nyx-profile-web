@@ -26,7 +26,7 @@ const About = () => {
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">
-            <a className="link-style" href="https://wa.me/082214239857">
+            <a className="link-style" href="https://wa.me/6282214239857">
               Join us!
             </a>
           </button>
