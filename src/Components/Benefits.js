@@ -4,8 +4,8 @@ import Gift from "../Assets/gift.jpg";
 
 const Benefit = () => {
   return (
-    <div className="work-section-wrapper">
-      <div className="work-section-top">
+    <div className="benefit-section-wrapper">
+      <div className="benefit-section-top">
         <p className="primary-subheading">Benefit</p>
         <h1 className="primary-heading">What Are The Benefits?</h1>
         <p className="primary-text">
