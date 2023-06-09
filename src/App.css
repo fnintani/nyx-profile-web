@@ -228,7 +228,7 @@ nav {
   margin-top: 1.5rem;
 }
 .benefit-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,11 +277,6 @@ nav {
   align-items: center;
   font-weight: 600;
 }
-main {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
 .underline {
   height: 0.25rem;
   width: 5rem;
@@ -289,13 +284,9 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-.container {
-  width: 80vw;
-  max-width: 620px;
-}
 .review {
   background: #fff;
-  padding: 1.5rem 1.2rem;
+  padding: 1.2rem 1.2rem;
   border-radius: 0.25rem;
   box-shadow:  0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s linear;
@@ -347,9 +338,11 @@ main {
 }
 .author {
   margin-bottom: 0.25rem;
+  font-size: 1.3rem;
 }
 .info {
   margin-bottom: 0.75rem;
+  font-size: 1rem;
 }
 .prev-btn,
 .next-btn {
@@ -464,7 +457,7 @@ main {
     margin-right: 0rem !important;
   }
   .work-section-wrapper {
-    margin-top: 5rem !important;
+    margin-top: 1rem !important;
   }
   .work-section-bottom {
     margin-top: 1rem !important;
@@ -494,5 +487,8 @@ main {
   .home-bannerImage-container,
   .about-background-image-container {
     display: none;
+  }
+  .benefit-section-wrapper {
+    margin-top: 2rem;
   }
 }
