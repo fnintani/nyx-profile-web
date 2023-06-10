@@ -47,16 +47,6 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
-/* .navbar-menu-container {
-  display: none;
-}
-.navbar-links-container a {
-  margin-right: 3rem;
-  text-decoration: none;
-  color: black;
-  font-size: 1.1rem;
-  font-weight: 600;
-} */
 .primary-button {
   padding: 0.9rem 1.75rem;
   background-color: white;
@@ -68,16 +58,10 @@ nav {
   font-weight: 600;
   transition: 0.2s;
 }
-.navbar-cart-icon {
-  font-size: 1.15rem;
-}
 .primary-button:hover {
   background-color: rgb(234, 234, 234);
 }
-.navbar-menu-container svg {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
+
 .home-banner-container {
   position: relative;
   display: flex;
@@ -89,6 +73,9 @@ nav {
   right: -170px;
   z-index: -2;
   max-width: 700px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .home-image-section {
   max-width: 600px;
@@ -104,8 +91,10 @@ nav {
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
   max-width: 600px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
@@ -132,6 +121,11 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.secondary-button .link-style{
+  text-decoration: none;
+  color: white;
+  animation: 2s anim-lineUp ease-out infinite;
+}
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
@@ -142,6 +136,7 @@ nav {
 .secondary-button:hover .link-style{
   text-decoration: none;
   color: white;
+  animation: 2s anim-lineUp ease-out infinite;
 }
 .about-section-container {
   margin-top: 20rem;
@@ -194,7 +189,6 @@ nav {
   margin-right: 6px;
 }
 .footer-wrapper {
-  /* margin: 6rem 0rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,12 +384,6 @@ nav {
   .nav-logo-container {
     max-width: 140px;
   }
-  /* .navbar-links-container {
-    display: none;
-  } */
-  /* .navbar-menu-container {
-    display: flex;
-  } */
   .home-bannerImage-container {
     max-width: 450px;
   }
@@ -490,5 +478,32 @@ nav {
   }
   .benefit-section-wrapper {
     margin-top: 2rem;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
 }
