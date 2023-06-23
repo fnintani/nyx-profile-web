@@ -57,7 +57,13 @@ const Work = () => {
     setIndex(checkNumber(randomNumber));
   };
   return (
-    <article className="review">
+    <article
+      className="review"
+      data-aos="zoom-in"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="1000"
+      data-aos-delay="0"
+    >
       <div className="work-section-wrapper">
         <div className="work-section-top">
           <p className="primary-subheading">Talents</p>

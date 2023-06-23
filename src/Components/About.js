@@ -9,11 +9,27 @@ const About = () => {
         <img src={AboutBackground} alt="" />
       </div>
       <div className="about-section-image-container">
-        <img className="img-bg-home" src={AboutBackgroundImage} alt="" />
+        <img
+          className="img-bg-home"
+          data-aos="fade-left"
+          // data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+          // data-aos-delay="0"
+          src={AboutBackgroundImage}
+          alt=""
+        />
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
-        <h1 className="primary-heading">NYX MANAGEMENT</h1>
+        <h1
+          className="primary-heading"
+          data-aos="zoom-out-down"
+          // data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+          data-aos-delay="0"
+        >
+          NYX MANAGEMENT
+        </h1>
         <p className="primary-text">
           NYX MANAGEMENT adalah sebuah talent agency yang bergerak dalam
           perekrutan talenta di bidang Live Streaming dan Content Creation sejak

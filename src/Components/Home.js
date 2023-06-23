@@ -12,7 +12,13 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
         </div>
         <div className="home-text-section">
-          <h1 className="primary-heading">
+          <h1
+            className="primary-heading"
+            data-aos="zoom-out-down"
+            // data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            data-aos-delay="0"
+          >
             Your Best Social Media Talent Management
           </h1>
           <p className="primary-text">
@@ -29,7 +35,13 @@ const Home = () => {
             </a>
           </button>
         </div>
-        <div className="home-image-section">
+        <div
+          className="home-image-section"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+          data-aos-delay="0"
+        >
           <img className="img-bg-home" src={BannerImage} alt="" />
         </div>
       </div>
